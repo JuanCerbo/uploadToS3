@@ -1,0 +1,19 @@
+{
+    "name": "jauns/upload-to-s3",
+    "description": "Upload fields to an s3 bucket",
+    "autoload": {
+        "psr-4": {
+            "Jauns\\UploadToS3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JuanCerbo",
+            "email": "120061769+JuanCerbo@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.269",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
